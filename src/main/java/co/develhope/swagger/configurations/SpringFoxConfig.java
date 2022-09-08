@@ -26,8 +26,7 @@ public class SpringFoxConfig {
                 new Contact("Wilk", "https://github.com/iWIPER", "wilk.p.matias@gmail.com"),
                 "MIT",
                 "https://en.wikipedia.org/wiki/MIT_License",
-                Collections.emptyList()
-        );
+                Collections.emptyList());
 
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
